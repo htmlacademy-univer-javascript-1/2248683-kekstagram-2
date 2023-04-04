@@ -8,6 +8,7 @@ const MESSAGES = [
 ];
 const COMMENT_IDS = [];
 
+
 const isCorrectLength = (str, maxLength) => str.length <= maxLength;
 
 const getRandomLikes = () => getRandomInt(15, 200);
@@ -74,4 +75,17 @@ const descriptions = Array.from({length: PHOTOS_COUNT}, generateDescription);
 isCorrectLength(descriptions, PHOTOS_COUNT); // Чтобы eslint не ругался
 
 export {getRandomInt, isCorrectLength}; // для того чтобы линтер не ругался
+=======
+function sum(num1, num2) {
+  return num1 + num2;
+}
 
+
+console.log(sum(5, 7))
+
+
+function stringLength(str) {
+  return str.length;
+}
+
+console.log(stringLength("Hello, world!"));
