@@ -1,7 +1,7 @@
 import {getRandomInt} from './util';
 
 const PHOTOS_COUNT = 25;
-const NAMES = ['Дима', 'Олежа', 'Дементий', 'Егор', 'Эдик'];
+const NAMES = ['Алина', 'Настя', 'Катя', 'Карина', 'Алиса'];
 const DESCRIPTIONS = Array.from({length: PHOTOS_COUNT}, (_, i) => `Описание ${i}`);
 const MESSAGES = [
   'Всё отлично!',
