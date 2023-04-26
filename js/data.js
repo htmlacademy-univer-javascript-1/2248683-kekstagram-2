@@ -44,7 +44,7 @@ function generateComment() {
 }
 
 function generateDescription() {
-  const comments = Array.from({length: getRandomInt(0, 3)}, generateComment);
+ const comments = Array.from({length: getRandomInt(0, 10)}, generateComment);
   const id = getId();
   return {
     id: id,
