@@ -411,6 +411,21 @@ main {
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
 }
+.scale-100{
+  transform: scale(1);
+}
+
+.scale-75{
+  transform: scale(.75);
+}
+
+.scale-50{
+  transform: scale(.50);
+}
+
+.scale-25{
+  transform: scale(.25);
+}
 
 .scale {
   margin: 0;
