@@ -1,4 +1,4 @@
-import {getCloseListers, trimField} from './util.js';
+import {getCloseListeners, trimField} from './util.js';
 import {validator} from './form-validation.js';
 
 const overlay = document.querySelector('.img-upload__overlay');
@@ -6,7 +6,7 @@ const form = document.querySelector('#upload-select-image');
 const closeButton = overlay.querySelector('#upload-cancel');
 const hashtagField = form.querySelector('.text__hashtags');
 const descField = form.querySelector('.text__description');
-const [closeForm, closeEscape] = getCloseListers(overlay, closeButton, clearForm);
+const [closeForm, closeEscape] = getCloseListeners(overlay, closeButton, clearForm);
 const scale = form.querySelector('.scale__control--value');
 const scaleControls = form.querySelectorAll('button.scale__control');
 
